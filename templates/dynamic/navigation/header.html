@@ -1,0 +1,67 @@
+<header class="main-header">
+    <!-- Logo -->
+    <a href="/" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>B</b>MCM</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>B</b> M C M</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" data-target="sidebar-menu" role="button" onclick="SidebarCollapse()">
+        <span class="sr-only">BMCM</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+          <li class="dropdown messages-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope-o"></i>
+              <span class="label label-success"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 0 messages</li>
+              <li class="footer"><a href="/inbox">See All Messages</a></li>
+            </ul>
+          </li>
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"> </i>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">Notifications</li>
+                <button type="button" class="btn btn-box-tool btn-block" id="strSendVerificationEmail">Send Verification Email</button>
+            </ul>
+          </li>
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="/static/dist/img/sms.jpeg" id="strUserImageID" class="user-image" alt="User Image">
+              <span class="hidden-xs" id="strUserNameID"></span>
+            </a>
+            <!-- DROP DOWN MENU -->
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="/static/dist/img/avatar04.png" id="strMainUserImageID" class="img-circle" alt="User Image">
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="/login" class="btn btn-warning btn-flat" id="SingInButton">login</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<script src="/static/dist/js/firebase.js"></script>
+<script src="/static/dist/js/pages/authentication/header.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108265985-1"></script>
+<script src="/static/dist/js/pages/analytics/analytics.js"></script>

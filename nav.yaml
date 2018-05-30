@@ -1,0 +1,16 @@
+handlers:
+
+- url: /navigation/header
+  script: navigation.app
+
+- url: /navigation/admin/header
+  script: navigation.app
+
+- url: /navigation/sidebar
+  script: navigation.app
+
+- url: /navigation/admin/sidebar
+  script: navigation.app
+
+- url: /navigation/footer
+  script: navigation.app
